@@ -55,11 +55,19 @@ export const resumeData = {
       name: "Full Stack Data Science and Generative AI",
       issuer: "Naresh I Technologies",
       duration: "Jun 2025 - Dec 2025",
+      description: "Comprehensive training covering data science fundamentals, advanced analytics, machine learning, deep learning, and AI applications.",
+      certificateUrl: "/certificates/naresh-fullstack-ds-ai.pdf",
+      imageUrl: "/certificates/naresh-fullstack-ds-ai.jpg",
+      skills: ["Python", "Machine Learning", "Deep Learning", "Data Analysis", "Generative AI"],
     },
     {
       name: "Data Analytics Job Simulation",
       issuer: "Deloitte Australia (Forage)",
       duration: "Nov 2025",
+      description: "Completed real-world data analytics simulation including data extraction, analysis, visualization, and business insights generation.",
+      certificateUrl: "/certificates/deloitte-data-analyst.pdf",
+      imageUrl: "/certificates/deloitte-data-analyst.jpg",
+      skills: ["Data Analysis", "Excel", "Tableau", "Business Intelligence", "Problem Solving"],
     },
   ],
 
@@ -72,6 +80,7 @@ export const resumeData = {
       keyMetrics: ["Total Sales", "Return Rate", "Customer Lifetime Value", "Average Order Value"],
       insights: "Real-time sales monitoring with drill-through capabilities for detailed analysis",
       image: "/dashboards/sales-returns.png",
+      embedUrl: "",
     },
     {
       title: "Hospital Performance Dashboard",
@@ -81,6 +90,7 @@ export const resumeData = {
       keyMetrics: ["Patient Census", "ER Wait Time", "Bed Occupancy Rate", "Staff Utilization"],
       insights: "KPI tracking for operational efficiency and resource optimization",
       image: "/dashboards/hospital-performance.png",
+      embedUrl: "https://app.powerbi.com/links/Bpfr1OxXBR?ctid=e56f0506-43da-4219-997c-29d7ede421f2&pbi_source=linkShare",
     },
     {
       title: "Financial Metrics Dashboard",
@@ -90,6 +100,7 @@ export const resumeData = {
       keyMetrics: ["Revenue", "Profit Margin", "Cash Flow", "Budget Variance"],
       insights: "Dynamic filters for real-time financial insights and forecasting",
       image: "/dashboards/financial-metrics.png",
+      embedUrl: "",
     },
     {
       title: "Customer Analytics Dashboard",
@@ -99,6 +110,7 @@ export const resumeData = {
       keyMetrics: ["Customer Acquisition Cost", "Retention Rate", "NPS Score", "Customer Segment Value"],
       insights: "Behavioral patterns and predictive analytics for customer retention",
       image: "/dashboards/customer-analytics.png",
+      embedUrl: "",
     },
   ],
 
