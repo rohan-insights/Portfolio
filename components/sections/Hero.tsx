@@ -106,7 +106,7 @@ export default function Hero() {
             >
               <motion.a
                 href="#projects"
-                className="px-8 py-4 bg-gray-300 dark:bg-gray-600 text-black dark:text-black rounded-xl font-semibold btn-modern hover-lift shadow-lg hover:shadow-xl"
+                className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-red-300 rounded-xl font-semibold btn-modern hover-lift neon-border"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
