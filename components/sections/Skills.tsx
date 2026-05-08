@@ -13,7 +13,7 @@ const SkillCard = ({ title, skills }: { title: string; skills: string[] }) => (
       {skills.map((skill, idx) => (
         <span
           key={idx}
-          className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-primary dark:text-accent rounded-full text-sm font-medium"
+          className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-white dark:text-white rounded-full text-sm font-medium"
         >
           {skill}
         </span>
