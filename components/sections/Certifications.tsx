@@ -62,7 +62,7 @@ export default function Certifications() {
                   </div>
                 )}
 
-                {/* <div className="flex gap-3">
+                <div className="flex gap-3">
                   <button
                     onClick={() => setSelectedCert(cert)}
                     className="flex-1 px-4 py-2 bg-primary text-white rounded text-sm font-semibold hover:bg-accent transition-colors"
@@ -78,7 +78,7 @@ export default function Certifications() {
                       Download
                     </a>
                   )}
-                </div> */}
+                </div>
               </motion.div>
             ))}
           </div>
@@ -158,7 +158,7 @@ export default function Certifications() {
                   </div>
                 )}
 
-                {/* {selectedCert.certificateUrl && (
+                {selectedCert.certificateUrl && (
                   <div className="pt-4">
                     <a
                       href={selectedCert.certificateUrl}
@@ -168,7 +168,7 @@ export default function Certifications() {
                       Download Certificate PDF
                     </a>
                   </div>
-                )} */}
+                )}
               </div>
             </div>
           </motion.div>
