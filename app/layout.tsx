@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { RootLayoutClient } from "@/components/RootLayoutClient";
 
 export const metadata: Metadata = {
