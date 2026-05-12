@@ -163,7 +163,7 @@ export default function Certifications() {
                     <a
                       href={selectedCert.certificateUrl}
                       download
-                      className="inline-block w-full px-6 py-3 bg-gradient-to-r from-primary to-secondary text-red-300 rounded-lg font-semibold hover:shadow-lg transition-all text-center"
+                      className="inline-block w-full px-6 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-lg font-semibold hover:shadow-lg transition-all text-center"
                     >
                       Download Certificate PDF
                     </a>

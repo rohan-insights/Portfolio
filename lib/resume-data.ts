@@ -71,48 +71,7 @@ export const resumeData = {
     },
   ],
 
-  powerBIDashboards: [
-    {
-      title: "Sales & Returns Dashboard",
-      description: "Interactive dashboard integrating Orders, Returns, and Users data to analyze sales performance, customer behavior, and return trends.",
-      category: "Business Analytics",
-      tools: ["Power BI", "DAX", "Power Query", "SQL"],
-      keyMetrics: ["Total Sales", "Return Rate", "Customer Lifetime Value", "Average Order Value"],
-      insights: "Real-time sales monitoring with drill-through capabilities for detailed analysis",
-      image: "/dashboards/sales-returns.png",
-      embedUrl: "https://app.powerbi.com/groups/afcb595e-8c0b-4d95-9e53-f6a4709ee9e2/reports/2e002860-797e-4323-9a8e-c403f4e71dd7?ctid=e56f0506-43da-4219-997c-29d7ede421f2&pbi_source=linkShare",
-    },
-    {
-      title: "Hospital Performance Dashboard",
-      description: "Comprehensive dashboard for monitoring hospital operations, patient metrics, and departmental performance.",
-      category: "Healthcare Analytics",
-      tools: ["Power BI", "DAX", "SQL Server"],
-      keyMetrics: ["Patient Census", "ER Wait Time", "Bed Occupancy Rate", "Staff Utilization"],
-      insights: "KPI tracking for operational efficiency and resource optimization",
-      image: "/dashboards/hospital-performance.png",
-      embedUrl: "https://app.powerbi.com/links/Bpfr1OxXBR?ctid=e56f0506-43da-4219-997c-29d7ede421f2&pbi_source=linkShare",
-    },
-    {
-      title: "Financial Metrics Dashboard",
-      description: "Executive dashboard tracking key financial indicators, revenue trends, and expense analysis.",
-      category: "Financial Analytics",
-      tools: ["Power BI", "DAX", "Excel Integration"],
-      keyMetrics: ["Revenue", "Profit Margin", "Cash Flow", "Budget Variance"],
-      insights: "Dynamic filters for real-time financial insights and forecasting",
-      image: "/dashboards/financial-metrics.png",
-      embedUrl: "https://app.powerbi.com/groups/afcb595e-8c0b-4d95-9e53-f6a4709ee9e2/reports/2e002860-797e-4323-9a8e-c403f4e71dd7?ctid=e56f0506-43da-4219-997c-29d7ede421f2&pbi_source=linkShare",
-    },
-    {
-      title: "Customer Analytics Dashboard",
-      description: "360-degree customer view dashboard with segmentation, behavior analysis, and churn prediction.",
-      category: "Customer Analytics",
-      tools: ["Power BI", "DAX", "Python"],
-      keyMetrics: ["Customer Acquisition Cost", "Retention Rate", "NPS Score", "Customer Segment Value"],
-      insights: "Behavioral patterns and predictive analytics for customer retention",
-      image: "/dashboards/customer-analytics.png",
-      embedUrl: "https://app.powerbi.com/groups/afcb595e-8c0b-4d95-9e53-f6a4709ee9e2/reports/2e002860-797e-4323-9a8e-c403f4e71dd7?ctid=e56f0506-43da-4219-997c-29d7ede421f2&pbi_source=linkShare",
-    },
-  ],
+
 
   skills: {
     programming: ["Python", "SQL"],
